@@ -1,0 +1,46 @@
+Linear:
+  cyclic_feature_encoding:
+    - sincos
+    - onehot
+Prophet:
+  growth:
+    - linear
+    - logistic
+  seasonality_mode:
+    - additive
+    - multiplicative
+  cyclic_feature_encoding:
+    - sincos
+    - onehot
+LGB:
+  boosting:
+    - gbdt
+    - dart
+  cyclic_feature_encoding:
+    - sincos
+    - onehot
+XGB:
+  booster:
+    - gbtree
+    - dart 
+  cyclic_feature_encoding:
+    - sincos
+    - onehot
+Sarimax:
+  cyclic_feature_encoding:
+    - sincos
+    - onehot
+LSTM:
+  cyclic_feature_encoding:
+    - sincos
+    - onehot
+  type:
+    - vanilla
+    - encoder-decoder
+  stateful:
+    - True
+    - False
+  batch_size: 
+    - 64
+    - 128
+    - 256
