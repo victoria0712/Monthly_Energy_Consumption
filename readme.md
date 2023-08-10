@@ -1,11 +1,15 @@
-#Monthly Energy Consumption Report
+# Monthly Energy Consumption Report
 
 
-##0. Confidentiality
+## 0. Confidentiality
 
 Welcome to the project documentation. In accordance with the commitment to confidentiality, certain sensitive information, including the company name, camp name, building name, will not be disclosed within this documentation. The data presented here has been randomly generated for illustrative purposes, ensuring the protection of proprietary details. The documentation showcases the project's capabilities while upholding the principles of confidentiality and security.
 
-##1. Raw Data
+## 1. Description
+
+This is an innovative project that automates the generation of monthly utility consumption reports. Through visualizations, the system presents consumption data for each building within a camp, facilitating peer-to-peer comparisons, historical trend analysis, and anomaly detection using statistical models. This automation framework can be seamlessly extended to other camps nationwide, empowering camp owners to optimize energy efficiency strategies by identifying top-performing buildings and implementing impactful energy-saving initiatives.
+
+## 2. Raw Data
 
     Query electricity and water data for JC and PLAB.
     
@@ -39,7 +43,7 @@ Welcome to the project documentation. In accordance with the commitment to confi
     4) Data Collection_DSTA_water_PLAB.ipynb
        This is the water data collection code of PLAB camp
 
-##2. Main Code:
+## 3. Main Code:
 
     1) funtion.py
        This script contains all the functions needed for the main code
@@ -50,7 +54,7 @@ Welcome to the project documentation. In accordance with the commitment to confi
     3) monthly_report_plab.py
         This is the main code of PLAB camp
 
-##3. Main Code Logic
+## 4. Main Code Logic
 
     1) Define root path at line 8th, select_month at line 10th, start_date at line 12th, and end_date at line 11th
        Define time list and function list (If some meters dun have data, this function list needs change)
